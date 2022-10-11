@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+.header .logo {
+    font-size: 2rem;
+    color: #10221b;
+    font-weight: bolder;
+    text-decoration: none;
+    margin: 25rem;
+    padding: 10rem;
+  }
+
+  .packages {
+    background: #eee;
+  }
+
+.packages h1{
+  font-size: 1.5rem;
+  margin: 2rem;
+  padding: .5rem;
+  text-align: center  ;
+}
+  
+  .packages .box-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(32rem, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .packages .box-container .box {
+    text-align: center;
+    background: #fff;
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: .2rem;
+  }
+  
+  .packages .box-container .box:hover {
+    background: #941717;
+  }
+  
+  .packages .box-container .box:hover .content > * {
+    color: #fff;
+  }
+  
+  .packages .box-container .box:hover .btn {
+    border-color: #fff;
+    padding: 0%;
+  }
+  
+  .packages .box-container .box:hover .btn:hover {
+    background: #fff;
+    color: #731900;
+  }
+  
+  .packages .box-container .box .image {
+    height: 25rem;
+    overflow: hidden;
+    padding: 2rem;
+    padding-bottom: 0;
+    border-radius: .5rem;
+  }
+  
+  .packages .box-container .box .image img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: .5rem;
+  }
+  
+  .packages .box-container .box .content a {
+    padding: 2rem;
+    font-size: 2rem;
+    text-decoration: none;
+  }
+  
+
+  .packages .box-container .box .content h3 {
+    align-items: center ;
+    font-size: 2.5rem;
+    text-decoration: none;
+  }
